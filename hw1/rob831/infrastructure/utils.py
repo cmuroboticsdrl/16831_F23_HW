@@ -70,13 +70,13 @@ def sample_n_trajectories(env, policy, ntraj, max_path_length, render=False, ren
         Collect ntraj rollouts.
 
         TODO implement this function
-        Hint1: use sample_trajectory to get each path (i.e. rollout) that goes into paths
+        Hint1: use sample_trajectory to get each path (i.e. rollout) that goes into the sampled_paths list.
     """
-    paths = []
+    sampled_paths = []
 
     TODO
 
-    return paths
+    return sampled_paths
 
 ############################################
 ############################################
